@@ -3,6 +3,7 @@ import About from "../components/pages/home/About";
 import HomeAds from "../components/pages/home/HomeAds";
 import Introduction from "../components/pages/home/Introduction";
 import Product from "../components/pages/home/Product";
+import Project from "../components/pages/home/Project";
 import Header from "../layouts/Header";
 
 const Home: NextPage = () => {
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
       <About />
       <Product />
       <HomeAds />
+      <Project />
     </>
   );
 };
