@@ -14,28 +14,28 @@ const Project = () => {
 
         <div className="project__list">
           <ProjectItem
-            image={{ src: ElevatorImg, alt: "Thang máy gia đình" }}
-            label="Thang máy gia đình"
+            image={{ src: ElevatorImg, alt: "Dự án chung cư quận 2" }}
+            label="Dự án chung cư quận 2"
           />
           <ProjectItem
-            image={{ src: ElevatorImg, alt: "Thang máy gia đình" }}
-            label="Thang máy gia đình"
+            image={{ src: ElevatorImg, alt: "Dự án chung cư quận 2" }}
+            label="Dự án chung cư quận 2"
           />
           <ProjectItem
-            image={{ src: ElevatorImg, alt: "Thang máy gia đình" }}
-            label="Thang máy gia đình"
+            image={{ src: ElevatorImg, alt: "Dự án chung cư quận 2" }}
+            label="Dự án chung cư quận 2"
           />
           <ProjectItem
-            image={{ src: ElevatorImg, alt: "Thang máy gia đình" }}
-            label="Thang máy gia đình"
+            image={{ src: ElevatorImg, alt: "Dự án chung cư quận 2" }}
+            label="Dự án chung cư quận 2"
           />
           <ProjectItem
-            image={{ src: ElevatorImg, alt: "Thang máy gia đình" }}
-            label="Thang máy gia đình"
+            image={{ src: ElevatorImg, alt: "Dự án chung cư quận 2" }}
+            label="Dự án chung cư quận 2"
           />
           <ProjectItem
-            image={{ src: ElevatorImg, alt: "Thang máy gia đình" }}
-            label="Thang máy gia đình"
+            image={{ src: ElevatorImg, alt: "Dự án chung cư quận 2" }}
+            label="Dự án chung cư quận 2"
           />
         </div>
       </div>
