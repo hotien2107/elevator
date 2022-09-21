@@ -1,7 +1,10 @@
-@import "intro";
 @import "button";
-@import "about";
-@import "product";
-@import "advertisement";
-@import "home-ads";
-@import "project";
+
+@import "home/intro";
+@import "home/about";
+@import "home/product";
+@import "home/advertisement";
+@import "home/home-ads";
+@import "home/project";
+@import "home/customer-review";
+@import "home/partner";
