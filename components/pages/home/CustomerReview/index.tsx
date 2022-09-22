@@ -8,6 +8,7 @@ import Container from "../../../../layouts/Container";
 import LawyerAvt from "../../../../assets/images/lawyer.jpg";
 import CustomerReviewItem from "./CustomerReviewItem";
 import Slider from "react-slick";
+import SendIcon from "../../../../assets/icons/send.png";
 
 const CustomerReview = () => {
   const settings = {
@@ -18,14 +19,8 @@ const CustomerReview = () => {
     slidesToScroll: 1,
     arrows: true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
-    prevArrow: (
-      <AiFillCaretLeft className="customer-review__action customer-review__action--left" />
-    ),
-    nextArrow: (
-      <AiFillCaretRight className="customer-review__action customer-review__action--right" />
-    ),
     responsive: [
       {
         breakpoint: 1024,
