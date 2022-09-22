@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import About from "../components/pages/home/About";
+import Contact from "../components/pages/home/Contact";
 import CustomerReview from "../components/pages/home/CustomerReview";
 import HomeAds from "../components/pages/home/HomeAds";
 import Introduction from "../components/pages/home/Introduction";
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
       <CustomerReview />
       <Partner />
       <News />
+      <Contact />
     </>
   );
 };
