@@ -7,17 +7,16 @@ const Advertisement = (props: AdvertisementProps) => {
   const { children, bgImage } = props;
   return (
     <div className="ads">
-      <div className="ads__background">
-        <Image
-          src={bgImage?.src}
-          alt={bgImage?.alt}
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          className="ads__img"
-        />
-      </div>
-      <div className="ads__blur"></div>
+      <Image
+        src={bgImage?.src}
+        alt={bgImage?.alt}
+        layout="fill"
+        objectFit="cover"
+        objectPosition="center"
+        className="ads__img"
+      />
+
+      <div className="ads__blur" />
       <Container className="ads__container">{children}</Container>
     </div>
   );
