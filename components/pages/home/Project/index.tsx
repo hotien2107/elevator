@@ -1,15 +1,24 @@
 import React from "react";
 import Container from "../../../../layouts/Container";
-import { AiFillCaretDown } from "react-icons/ai";
+import ArrowDownIcon from "../../../../assets/icons/arrow-down-sm.svg";
+import * as Scroll from "react-scroll";
 import ProjectItem from "./ProjectItem";
 import ElevatorImg from "../../../../assets/images/thangmay1.jpeg";
+import Image from "next/image";
 
 const Project = () => {
   return (
     <Container>
       <div className="project">
         <h1 className="project__title">
-          Dự án tiêu biểu <AiFillCaretDown />
+          Dự án tiêu biểu
+          <Scroll.Link smooth to="customer">
+            <Image
+              src={ArrowDownIcon}
+              alt="Đi xuống phần tiếp theo"
+              className="product__icon"
+            />
+          </Scroll.Link>
         </h1>
 
         <div className="project__list">

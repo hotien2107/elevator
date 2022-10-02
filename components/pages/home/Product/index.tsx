@@ -4,18 +4,21 @@ import ProductItem from "./ProductItem";
 import ElevatorImg from "../../../../assets/images/thangmay1.jpeg";
 import Image from "next/image";
 import ArrowDownIcon from "../../../../assets/icons/arrow-down-sm.svg";
+import * as Scroll from "react-scroll";
 
 const Product = () => {
   return (
     <Container>
       <div className="product">
         <h1 className="product__title">
-          Sản phẩm{" "}
-          <Image
-            src={ArrowDownIcon}
-            alt="Đi xuống phần tiếp theo"
-            className="product__icon"
-          />
+          Sản phẩm
+          <Scroll.Link smooth to="project">
+            <Image
+              src={ArrowDownIcon}
+              alt="Đi xuống phần tiếp theo"
+              className="product__icon"
+            />
+          </Scroll.Link>
         </h1>
 
         <p className="product__desc">

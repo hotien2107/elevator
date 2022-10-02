@@ -1,13 +1,12 @@
 import React, { useRef } from "react";
-import {
-  AiFillCaretDown,
-  AiFillCaretLeft,
-  AiFillCaretRight,
-} from "react-icons/ai";
+import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai";
 import Container from "../../../../layouts/Container";
 import LawyerAvt from "../../../../assets/images/lawyer.jpg";
 import PartnerItem from "./PartnerItem";
 import Slider from "react-slick";
+import ArrowDownIcon from "../../../../assets/icons/arrow-down-sm.svg";
+import * as Scroll from "react-scroll";
+import Image from "next/image";
 
 const Partner = () => {
   const settings = {
@@ -60,7 +59,13 @@ const Partner = () => {
         <h4 className="partner__title">Đối tác</h4>
         <p className="partner__sub">
           của chúng tôi
-          <AiFillCaretDown className="partner__icon" />
+          <Scroll.Link smooth to="news">
+            <Image
+              src={ArrowDownIcon}
+              alt="Đi xuống phần tiếp theo"
+              className="product__icon"
+            />
+          </Scroll.Link>
         </p>
 
         <Slider {...settings}>

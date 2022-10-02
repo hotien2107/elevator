@@ -1,14 +1,11 @@
 import React, { useRef } from "react";
-import {
-  AiFillCaretDown,
-  AiFillCaretLeft,
-  AiFillCaretRight,
-} from "react-icons/ai";
 import Container from "../../../../layouts/Container";
 import LawyerAvt from "../../../../assets/images/lawyer.jpg";
 import CustomerReviewItem from "./CustomerReviewItem";
 import Slider from "react-slick";
-import SendIcon from "../../../../assets/icons/send.png";
+import ArrowDownIcon from "../../../../assets/icons/arrow-down-sm.svg";
+import * as Scroll from "react-scroll";
+import Image from "next/image";
 
 const CustomerReview = () => {
   const settings = {
@@ -55,7 +52,13 @@ const CustomerReview = () => {
         <h4 className="customer-review__title">Khách hàng</h4>
         <p className="customer-review__sub">
           Nói gì về chúng tôi
-          <AiFillCaretDown className="customer-review__icon" />
+          <Scroll.Link smooth to="partner">
+            <Image
+              src={ArrowDownIcon}
+              alt="Đi xuống phần tiếp theo"
+              className="product__icon"
+            />
+          </Scroll.Link>
         </p>
 
         <Slider {...settings}>

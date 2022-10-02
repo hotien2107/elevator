@@ -1,16 +1,24 @@
-import React from "react";
-import { AiFillCaretDown } from "react-icons/ai";
+import Image from "next/image";
+import * as Scroll from "react-scroll";
+import ArrowDownIcon from "../../../../assets/icons/arrow-down-sm.svg";
+import ThumbnailImage from "../../../../assets/images/thang-may-gia-dinh-hcm.jpg";
 import Container from "../../../../layouts/Container";
 import NewsMainItem from "./NewsMainItem";
 import NewsRelatedItem from "./NewsRelatedItem";
-import ThumbnailImage from "../../../../assets/images/thang-may-gia-dinh-hcm.jpg";
 
 const News = () => {
   return (
     <Container>
       <div className="news">
         <h4 className="news__title">
-          Tin tức <AiFillCaretDown className="news__icon" />
+          Tin tức{" "}
+          <Scroll.Link smooth to="news">
+            <Image
+              src={ArrowDownIcon}
+              alt="Đi xuống phần tiếp theo"
+              className="product__icon"
+            />
+          </Scroll.Link>
         </h4>
 
         <div className="news__content">

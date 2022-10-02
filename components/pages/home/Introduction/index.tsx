@@ -144,7 +144,9 @@ const Introduction = () => {
         </div>
       </Container>
       <div className="intro__down">
-        <Image src={ArrowDownWhiteIcon} alt="" width={10} height={10} />
+        <Scroll.Link smooth to="about">
+          <Image src={ArrowDownWhiteIcon} alt="" width={50} height={50} />
+        </Scroll.Link>
       </div>
     </div>
   );
