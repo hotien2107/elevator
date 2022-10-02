@@ -13,22 +13,23 @@ const About = () => {
             <div className="about__title">Về chúng tôi</div>
             <div className="about__detail-text">
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
-                consectetur enim alias deserunt numquam temporibus sequi animi
-                nihil amet optio quaerat mollitia eius labore molestias, ea
-                dolores quos veniam ipsa!
+                Thang máy Hưng Phú Gia là một trong những công ty được thành lập
+                với đội ngũ kỹ sư cán bộ – nhân viên trẻ giỏi chuyên môn, đạo
+                đức tốt, làm việc hiệu quả trong môi trường chuyên nghiệp và
+                hiện đại.
               </p>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
-                consectetur enim alias deserunt numquam temporibus sequi animi
-                nihil amet optio quaerat mollitia eius labore molestias, ea
-                dolores quos veniam ipsa!
+                Chúng tôi là đơn vị chuyên sản xuất, lắp ráp, bảo trì, sửa chữa
+                đảm nhận các sản phẩm và dịch vụ thang máy trên thị trường Việt
+                Nam. Các sản phẩm của chúng tôi thường xuyên có mặt tại các công
+                trình nhà ở, căn hộ cao cấp, chung cư, nhà xưởng cũng như bệnh
+                viện…
               </p>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
-                consectetur enim alias deserunt numquam temporibus sequi animi
-                nihil amet optio quaerat mollitia eius labore molestias, ea
-                dolores quos veniam ipsa!
+                Với hy vọng được phục vụ cho quý khách đồng thời cam kết cung
+                cấp lắp đặt những sản phẩm chất lượng cao, giá thành hợp lý, và
+                đáp ứng đầy đủ các tiêu chuẩn về kỹ thuật, chất lượng cũng như
+                một dịch vụ hậu mãi tốt nhất theo khách hàng đề ra.
               </p>
             </div>
           </div>
@@ -45,8 +46,7 @@ const About = () => {
                   />
                 }
                 title="Lĩnh vực 1"
-                desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
-                consectetur enim alias deserunt numquam "
+                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
               />
               <FieldItem
                 icon={

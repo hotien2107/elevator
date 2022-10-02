@@ -2,6 +2,7 @@
   background-image: url("../../../assets/images/thang-may-ngoai-troi.jpg");
   background-position: center;
   background-size: cover;
+  min-height: 60rem;
   margin: 5rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -10,21 +11,21 @@
     grid-column-start: 2;
     background-color: rgba($color-primary, 0.8);
     color: $color-white;
-    padding: 2rem 1rem;
+    padding: 3rem 2rem;
   }
 
   &__title {
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 700;
     margin-bottom: 2rem;
   }
 
   &__detail-text {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 400;
 
     p {
-      margin-bottom: 1rem;
+      margin-bottom: 1.6rem;
     }
   }
 
@@ -56,8 +57,7 @@
 
   &__field-desc {
     color: $color-black;
-    text-align: center;
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 500;
   }
 }

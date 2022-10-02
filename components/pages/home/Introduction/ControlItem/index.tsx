@@ -2,20 +2,18 @@ import React from "react";
 
 interface ControlItemProps {
   children: React.ReactNode;
+  onMouseEnter: () => void;
+  onMouseLeave: () => void;
 }
 
 const ControlItem = (props: ControlItemProps) => {
-  const { children } = props;
-  
+  const { children, onMouseEnter, onMouseLeave } = props;
+
   return (
     <div
       className="intro__control-item"
-      onMouseEnter={() => {
-        console.log("mouseEnter");
-      }}
-      onMouseLeave={() => {
-        console.log("mouseLeave");
-      }}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
     >
       {children}
     </div>

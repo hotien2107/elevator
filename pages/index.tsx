@@ -9,20 +9,45 @@ import Partner from "../components/pages/home/Partner";
 import Product from "../components/pages/home/Product";
 import Project from "../components/pages/home/Project";
 import Header from "../layouts/Header";
+import * as Scroll from "react-scroll";
 
 const Home: NextPage = () => {
   return (
     <>
       <Header />
-      <Introduction />
-      <About />
-      <Product />
+      <Scroll.Element name="intro">
+        <Introduction />
+      </Scroll.Element>
+
+      <Scroll.Element name="about">
+        <About />
+      </Scroll.Element>
+
+      <Scroll.Element name="product">
+        <Product />
+      </Scroll.Element>
+
       <HomeAds />
-      <Project />
-      <CustomerReview />
-      <Partner />
-      <News />
-      <Contact />
+
+      <Scroll.Element name="project">
+        <Project />
+      </Scroll.Element>
+
+      <Scroll.Element name="customer">
+        <CustomerReview />
+      </Scroll.Element>
+
+      <Scroll.Element name="partner">
+        <Partner />
+      </Scroll.Element>
+
+      <Scroll.Element name="news">
+        <News />
+      </Scroll.Element>
+
+      <Scroll.Element name="contact">
+        <Contact />
+      </Scroll.Element>
     </>
   );
 };
