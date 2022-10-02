@@ -1,7 +1,12 @@
 import React, { useRef } from "react";
 import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai";
 import Container from "../../../../layouts/Container";
-import LawyerAvt from "../../../../assets/images/lawyer.jpg";
+import VinhomesImg from "../../../../assets/images/Vinhomes.png";
+import ACBImg from "../../../../assets/images/acb.png";
+import NovalandImg from "../../../../assets/images/novaland-logo.jpg";
+import VietcomImg from "../../../../assets/images/Vietcombank_logo_fixed.svg.png";
+import SpotifyImg from "../../../../assets/images/Spotify_logo_with_text.svg.png";
+import VinamilkImg from "../../../../assets/images/Logo_vinamilk.png";
 import PartnerItem from "./PartnerItem";
 import Slider from "react-slick";
 import ArrowDownIcon from "../../../../assets/icons/arrow-down-sm.svg";
@@ -70,40 +75,20 @@ const Partner = () => {
 
         <Slider {...settings}>
           <PartnerItem
-            avatar={{ src: LawyerAvt, alt: "Hình ảnh khách hàng luật sư" }}
-            name="Luật sư X"
-            job="Luật sư"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit incidunt enim labore nam, porro aliquid assumenda, nihil possimus aliquam harum autem di!"
+            image={{ src: VinhomesImg, alt: "Hình ảnh đối tác vinhome" }}
+          />
+          <PartnerItem image={{ src: ACBImg, alt: "Hình ảnh đối tác ACB" }} />
+          <PartnerItem
+            image={{ src: NovalandImg, alt: "Hình ảnh đối tác Novaland" }}
           />
           <PartnerItem
-            avatar={{ src: LawyerAvt, alt: "Hình ảnh khách hàng luật sư" }}
-            name="Luật sư X"
-            job="Luật sư"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit incidunt enim labore nam, porro aliquid assumenda, nihil possimus aliquam harum autem di!"
+            image={{ src: VietcomImg, alt: "Hình ảnh đối tác Vietcombank" }}
           />
           <PartnerItem
-            avatar={{ src: LawyerAvt, alt: "Hình ảnh khách hàng luật sư" }}
-            name="Luật sư X"
-            job="Luật sư"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit incidunt enim labore nam, porro aliquid assumenda, nihil possimus aliquam harum autem di!"
+            image={{ src: SpotifyImg, alt: "Hình ảnh đối tác Spotify" }}
           />
           <PartnerItem
-            avatar={{ src: LawyerAvt, alt: "Hình ảnh khách hàng luật sư" }}
-            name="Luật sư X"
-            job="Luật sư"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit incidunt enim labore nam, porro aliquid assumenda, nihil possimus aliquam harum autem di!"
-          />
-          <PartnerItem
-            avatar={{ src: LawyerAvt, alt: "Hình ảnh khách hàng luật sư" }}
-            name="Luật sư X"
-            job="Luật sư"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit incidunt enim labore nam, porro aliquid assumenda, nihil possimus aliquam harum autem di!"
-          />
-          <PartnerItem
-            avatar={{ src: LawyerAvt, alt: "Hình ảnh khách hàng luật sư" }}
-            name="Luật sư X"
-            job="Luật sư"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit incidunt enim labore nam, porro aliquid assumenda, nihil possimus aliquam harum autem di!"
+            image={{ src: VinamilkImg, alt: "Hình ảnh đối tác Vinamilk" }}
           />
         </Slider>
       </div>

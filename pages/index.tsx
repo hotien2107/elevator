@@ -10,10 +10,16 @@ import Product from "../components/pages/home/Product";
 import Project from "../components/pages/home/Project";
 import Header from "../layouts/Header";
 import * as Scroll from "react-scroll";
+import Head from "next/head";
+import Footer from "../layouts/Footer";
 
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Hưng Phú Gia - Trang chủ</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Header />
       <Scroll.Element name="intro">
         <Introduction />
@@ -48,6 +54,8 @@ const Home: NextPage = () => {
       <Scroll.Element name="contact">
         <Contact />
       </Scroll.Element>
+
+      <Footer />
     </>
   );
 };

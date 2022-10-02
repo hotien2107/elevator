@@ -1,11 +1,8 @@
 import { StaticImageData } from "next/image";
 
 export interface PartnerItemProps {
-  avatar: {
+  image: {
     src: string | StaticImageData;
     alt: string;
   };
-  name: string;
-  job: string;
-  comment: string;
 }
