@@ -17,5 +17,6 @@ html {
   @include respond(phone) {
     font-size: 31.25%; // 1rem = 5px
   }
-}
 
+  color: $color-gray-dark;
+}

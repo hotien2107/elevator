@@ -1,0 +1,23 @@
+.product-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 4rem 0;
+  height: 40vh;
+
+  &__img {
+    position: relative;
+  }
+
+  &__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  &__desc {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: $color-gray;
+  }
+}
