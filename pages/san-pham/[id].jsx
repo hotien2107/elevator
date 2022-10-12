@@ -3,6 +3,7 @@ import React from "react";
 import Head from "next/head";
 import ProductOverview from "../../components/pages/productDetail/ProductOverview";
 import ProductOption from "../../components/pages/productDetail/ProductOption";
+import ProductSpecifications from "../../components/pages/productDetail/ProductSpecifications";
 
 const ProductDetail = () => {
   const router = useRouter();
@@ -17,6 +18,7 @@ const ProductDetail = () => {
       <div className="container">
         <ProductOverview />
         <ProductOption />
+        <ProductSpecifications />
       </div>
     </>
   );

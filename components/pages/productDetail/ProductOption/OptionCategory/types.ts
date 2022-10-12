@@ -5,6 +5,6 @@ export interface OptionCategoryProps {
 }
 
 export interface CategoryItem {
-  id: string;
+  id: "color" | "door" | "floor" | "key";
   name: string;
 }

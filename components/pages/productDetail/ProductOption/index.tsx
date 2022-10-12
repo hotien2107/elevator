@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import OptionCategory from "./OptionCategory";
+import { CategoryItem } from "./OptionCategory/types";
 import OptionContent from "./OptionContent";
 
 type CategoryType = "color" | "door" | "floor" | "key";
@@ -23,7 +24,7 @@ const ProductOption = () => {
     </div>
   );
 };
-const OptionCategoryList = [
+const OptionCategoryList: CategoryItem[] = [
   {
     id: "color",
     name: "Màu thang",

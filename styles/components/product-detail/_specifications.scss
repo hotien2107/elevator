@@ -1,0 +1,24 @@
+.product-specifications {
+  margin: 2rem 0;
+
+  &__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  &__table {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    border: none;
+  }
+
+  &__table-head {
+    background-color: #f7f7f7;
+  }
+
+  &__cell-head {
+    padding: 1rem;
+  }
+}
