@@ -46,7 +46,6 @@ const About = () => {
                   />
                 }
                 title="Lĩnh vực 1"
-                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
               />
               <FieldItem
                 icon={
@@ -58,8 +57,6 @@ const About = () => {
                   />
                 }
                 title="Lĩnh vực 1"
-                desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
-                consectetur enim alias deserunt numquam "
               />
               <FieldItem
                 icon={
@@ -71,8 +68,6 @@ const About = () => {
                   />
                 }
                 title="Lĩnh vực 1"
-                desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
-                consectetur enim alias deserunt numquam "
               />
               <FieldItem
                 icon={
@@ -84,8 +79,6 @@ const About = () => {
                   />
                 }
                 title="Lĩnh vực 1"
-                desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
-                consectetur enim alias deserunt numquam "
               />
             </div>
           </div>

@@ -143,11 +143,11 @@ const Introduction = () => {
           </ControlItem>
         </div>
       </Container>
-      <div className="intro__down">
+      {/* <div className="intro__down">
         <Scroll.Link smooth to="about">
           <Image src={ArrowDownWhiteIcon} alt="" width={50} height={50} />
         </Scroll.Link>
-      </div>
+      </div> */}
     </div>
   );
 };

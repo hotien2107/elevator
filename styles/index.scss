@@ -1,6 +1,8 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
+@import "vendors/index.scss";
+
 @import "abstracts/index.scss";
 
 @import "base/index.scss";
@@ -10,5 +12,3 @@
 @import "layouts/index.scss";
 
 @import "pages/index.scss";
-
-@import "vendors/index.scss";

@@ -25,7 +25,14 @@ const HeaderMenu = (props: HeaderMenuProps) => {
         Giới thiệu
       </li>
       <li className="header-menu__item">Sản phẩm</li>
-      <li className="header-menu__item">Dự án</li>
+      <li
+        className="header-menu__item"
+        onClick={() => {
+          router.push("/du-an");
+        }}
+      >
+        Dự án
+      </li>
       <li className="header-menu__item">Tin tức</li>
       <li className="header-menu__item">Liên hệ</li>
     </ul>

@@ -1,13 +1,14 @@
 import Head from "next/head";
 import React from "react";
 import ProductBanner from "../components/pages/productDetail/ProductBanner";
+import Footer from "../layouts/Footer";
 import Header from "../layouts/Header";
 
 const Introduction = () => {
   return (
     <>
       <Head>
-        <title>Hưng Phú Gia - Sản phẩm</title>
+        <title>Hưng Phú Gia - Giới thiệu</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header />
@@ -341,6 +342,7 @@ const Introduction = () => {
             </div>
           </div>
         </section>
+        <Footer />
       </div>
     </>
   );
