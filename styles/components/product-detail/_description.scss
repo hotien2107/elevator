@@ -1,0 +1,39 @@
+.product-desc {
+  margin: 4rem 0;
+
+  &__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  &-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &--reverse &__img {
+      grid-column-start: 2;
+    }
+    &--reverse &__content {
+      grid-row-start: 1;
+      grid-column-start: 1;
+    }
+
+    &__img {
+      position: relative;
+      height: 35vh;
+    }
+
+    &__content {
+      font-size: 1.5rem;
+      font-weight: 300;
+      padding: 1rem;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.product-breadcrumb {
+  display: flex;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+
+  &__item {
+    cursor: pointer;
+    font-weight: 400;
+    color: $color-gray;
+
+    &:hover {
+      color: $color-black;
+    }
+  }
+
+  &__break {
+    margin: 0 0.5rem;
+  }
+
+  &__item-current {
+    font-weight: 600;
+  }
+}

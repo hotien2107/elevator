@@ -1,10 +1,29 @@
+import { useRouter } from "next/router";
 import React from "react";
+import { HeaderMenuProps } from "./types";
 
-const HeaderMenu = () => {
+const HeaderMenu = (props: HeaderMenuProps) => {
+  const { isWhite } = props;
+  const router = useRouter();
+
   return (
-    <ul className="header-menu">
-      <li className="header-menu__item">Trang chủ</li>
-      <li className="header-menu__item">Giới thiệu</li>
+    <ul className={"header-menu " + (isWhite ? "header-menu--white" : "")}>
+      <li
+        className="header-menu__item"
+        onClick={() => {
+          router.push("/");
+        }}
+      >
+        Trang chủ
+      </li>
+      <li
+        className="header-menu__item"
+        onClick={() => {
+          router.push("/gioi-thieu");
+        }}
+      >
+        Giới thiệu
+      </li>
       <li className="header-menu__item">Sản phẩm</li>
       <li className="header-menu__item">Dự án</li>
       <li className="header-menu__item">Tin tức</li>
