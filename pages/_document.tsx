@@ -26,7 +26,7 @@ export default function Document() {
           src="/vendors/js/jquery-migrate.min.js"
         ></script>
         <script type="text/javascript" src="/vendors/js/jquery.min.js"></script>
-        {/* <script type="text/javascript" src="/vendors/js/aos.js"></script> */}
+        <script type="text/javascript" src="/vendors/js/aos.js"></script>
         <script type="text/javascript" src="/vendors/js/bootstrap.js"></script>
         <script type="text/javascript" src="/vendors/js/polyfill.js"></script>
         <script type="text/javascript" src="/vendors/js/main.js"></script>
