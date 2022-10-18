@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import Head from "next/head";
+import Script from "next/script";
 import React from "react";
 import ProductBanner from "../../components/pages/productDetail/ProductBanner";
 import Footer from "../../layouts/Footer";

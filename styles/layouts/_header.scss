@@ -29,8 +29,8 @@
 }
 
 .header-menu {
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
+  margin-bottom: 0;
 
   &--white {
     .header-menu__item {

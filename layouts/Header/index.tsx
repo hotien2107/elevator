@@ -32,6 +32,8 @@ const Header = (props: HeaderProps) => {
           src={offset >= 10 || !isHome ? LogoOriginal : Logo}
           alt="Công ty thang máy gia đình Hưng Phú Gia"
           className="header__logo"
+          height={35}
+          width={150}
           onClick={() => {
             router.push("/");
           }}
